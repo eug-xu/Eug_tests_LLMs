@@ -3,11 +3,11 @@ from dataclasses import dataclass
 
 @dataclass
 class LayoutParserSettings:
-    path_folder: str = "data/raw/images"
-    path_output: str = "data/processed/images/"
-    path_model: str = None
-    hf_repo: str = "agomberto/historical-layout-ft"
-    hf_filename: str = "20241119_v2_yolov10_50_finetuned.pt"
+    path_folder: str = "data/raw/images/eces_test"
+    path_output: str = "data/processed/images/eces_YOLO_test/"
+    path_model: str = "models/yolo_layout_model/20250111_yolov10_bagnards_EC.pt"
+    hf_repo: str = None
+    hf_filename: str = None
     device: str = "cpu"
     conf: float = 0.2
     iou: float = 0.5
