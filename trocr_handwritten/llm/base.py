@@ -16,6 +16,7 @@ FALLBACK_MODELS = {
     "gpt-5": "gpt-4o",
     "mistral-large-latest": "pixtral-large-latest",
 }
+# gemini-3-pro-preview was phased out March 2026, gemini-2.0-flash will be phased out June 2026
 
 
 class LLMProvider(ABC):

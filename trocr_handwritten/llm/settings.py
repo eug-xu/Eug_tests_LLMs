@@ -14,7 +14,7 @@ class LLMSettings(BaseModel):
         description="LLM provider to use for OCR",
     )
     model_name: str = Field(
-        default="gemini-3-pro-preview",
+        default="gemini-3-flash-preview",
         description="Model name to use for inference",
     )
     openai_api_key: Optional[str] = Field(

@@ -635,7 +635,7 @@ The LLM OCR module provides an alternative approach to handwritten text recognit
 | Provider | Default Model | Vision Support |
 |----------|--------------|----------------|
 | OpenAI | gpt-5.2 | Yes |
-| Gemini | gemini-3-pro-preview | Yes |
+| Gemini | gemini-3-flash-preview | Yes |
 | Mistral | mistral-large-latest | Yes |
 
 ### 📜 How to Use
@@ -659,7 +659,7 @@ python -m trocr_handwritten.llm.ocr
 ```bash
 python -m trocr_handwritten.llm.ocr \
     --provider gemini \
-    --model gemini-3-pro-preview \
+    --model gemini-3-flash-preview \
     --input_dir data/processed/images \
     --pattern "*/*/*.jpg" \
     -n 10 \

@@ -180,7 +180,7 @@ def main():
 
     model_defaults = {
         "openai": "gpt-5.2",
-        "gemini": "gemini-3-pro-preview",
+        "gemini": "gemini-3-flash-preview",
         "mistral": "mistral-large-latest",
     }
 
